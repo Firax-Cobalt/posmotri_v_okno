@@ -36,3 +36,11 @@ ul,
 ol {
   list-style: none;
 }
+
+.content {
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+  column-gap: 30px;
+  width: 1140px;
+}

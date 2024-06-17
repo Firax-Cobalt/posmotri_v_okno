@@ -65,3 +65,8 @@ ol {
   overflow: scroll;
   height: 534px;
 }
+
+.result__video-container {
+  margin-bottom: 16px;
+  width: 711px;
+}

@@ -55,6 +55,7 @@ ol {
 .result__video-container {
   margin-bottom: 16px;
   width: 711px;
+  position: relative;
 }
 
 .result__video {
@@ -74,6 +75,7 @@ ol {
 .content__list {
   overflow: scroll;
   height: 534px;
+  position: relative;
 }
 
 .content__list-item {

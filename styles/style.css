@@ -37,6 +37,17 @@ ol {
   list-style: none;
 }
 
+/* .visually-hidden {
+  position: absolute;
+  width: 1px; 
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden; 
+} */
+
 .content {
   margin: auto;
   display: flex;
@@ -50,6 +61,11 @@ ol {
   align-items: flex-start;
   column-gap: 40px;
   row-gap: 20px;
+}
+
+.search-form__fieldset-title {
+  font-size: 1em;
+  font-weight: 400;
 }
 
 .result__video-container {

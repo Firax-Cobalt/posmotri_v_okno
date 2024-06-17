@@ -84,3 +84,19 @@ ol {
   margin-bottom: 0;
 }
 
+.content__video-card {
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: auto 194px;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+  grid-column: 2 / 3;
+}
+
+.content__video-card-description-container {
+  grid-column: 1 / 2;
+}
+

@@ -52,6 +52,16 @@ ol {
   row-gap: 20px;
 }
 
+.result__video-container {
+  margin-bottom: 16px;
+  width: 711px;
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+}
+
 .content__details {
   width: 100%;
   height: 100%;
@@ -66,13 +76,11 @@ ol {
   height: 534px;
 }
 
-.result__video-container {
-  margin-bottom: 16px;
-  width: 711px;
+.content__list-item {
+  margin-bottom: 30px;
 }
 
-.result__video {
-  width: 100%;
-  height: 100%;
+.content__list-item:last-child {
+  margin-bottom: 0;
 }
 

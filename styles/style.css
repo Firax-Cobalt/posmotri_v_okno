@@ -44,3 +44,10 @@ ol {
   column-gap: 30px;
   width: 1140px;
 }
+
+.search-form {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 40px;
+  row-gap: 20px;
+}

@@ -37,6 +37,15 @@ ol {
   list-style: none;
 }
 
+fieldset {
+  border: none;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -67,6 +76,10 @@ ol {
   font-size: 1em;
   font-weight: 400;
   line-height: 1.2;
+}
+
+.search-form__label {
+  width: fit-content;
 }
 
 .result__video-container {

@@ -56,6 +56,18 @@ button {
   white-space: nowrap;
 }
 
+.button {
+  padding: 6px 15px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: transparent;
+  color:rgb(255, 255, 255);
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
 .content {
   margin: auto;
   display: flex;
@@ -111,6 +123,10 @@ button {
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
+}
+
+.search-form__submit-button {
+  width: 194px;
 }
 
 .result__video-container {
@@ -191,4 +207,9 @@ button {
   line-height: 1.5;
   font-weight: 400;
 }
+
+.more-button {
+  width: 100%;
+}
+
 

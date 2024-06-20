@@ -163,6 +163,7 @@ button {
   overflow: scroll;
   height: 534px;
   position: relative;
+  scrollbar-width: none;
 }
 
 .content__list::-webkit-scrollbar {

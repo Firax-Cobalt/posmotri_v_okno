@@ -68,6 +68,20 @@ button {
   text-align: center;
 }
 
+.button:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.button:active {
+  background-color: rgb(84, 80, 80);
+}
+
+.button:focus-visible {
+  outline: 1px solid rgb(255, 255, 255);
+  outline-offset: 1px;
+}
+
 .content {
   margin: auto;
   display: flex;
@@ -101,6 +115,15 @@ button {
   width: fit-content;
   position: relative;
 }
+
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+/* 
+.search-form__label:has(.search-form__label-text) {
+  outline: 1px solid rgb(255, 255, 255);
+} */
 
 .search-form__pseudo-checkbox {
   display: inline-block;

@@ -127,6 +127,7 @@ button {
 
 .search-form__submit-button {
   width: 194px;
+  align-self: flex-end;
 }
 
 .result__video-container {
@@ -162,6 +163,10 @@ button {
   overflow: scroll;
   height: 534px;
   position: relative;
+}
+
+.content__list::-webkit-scrollbar {
+  display: none;
 }
 
 .content__list-item {

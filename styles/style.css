@@ -208,7 +208,7 @@ button {
 
 .content__list {
   overflow: scroll;
-  height: 534px;
+  height: 298px;
   position: relative;
   scrollbar-width: none;
 }
@@ -239,10 +239,6 @@ button {
 .content__card-link:focus-visible {
   outline: 1px solid rgb(255 255 255);
   outline-offset: -1px;
-}
-
-.content__list-item:nth-child(5) {
-  margin-bottom: 0;
 }
 
 .content__video-card {

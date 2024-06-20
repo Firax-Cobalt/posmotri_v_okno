@@ -120,10 +120,6 @@ button {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
-/* 
-.search-form__label:has(.search-form__label-text) {
-  outline: 1px solid rgb(255, 255, 255);
-} */
 
 .search-form__pseudo-checkbox {
   display: inline-block;
@@ -143,6 +139,8 @@ button {
   height: 15px;
   background-color: rgb(255, 255, 255);
 }
+
+
 
 .search-form__textfield {
   appearance: none;

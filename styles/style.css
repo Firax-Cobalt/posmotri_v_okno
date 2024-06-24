@@ -84,6 +84,7 @@ button {
 
 .content {
   margin: auto;
+  padding-top: 133px;
   display: flex;
   align-items: flex-end;
   column-gap: 30px;
@@ -208,7 +209,7 @@ button {
 
 .content__list {
   overflow: scroll;
-  height: 298px;
+  height: 299px;
   position: relative;
   scrollbar-width: none;
 }

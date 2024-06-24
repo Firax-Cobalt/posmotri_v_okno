@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -60,7 +60,7 @@ button {
   padding: 6px 15px;
   border: 1px solid rgb(255, 255, 255);
   background-color: transparent;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   font-family: inherit;
   font-size: 18px;
   font-weight: 700;
@@ -117,6 +117,10 @@ button {
   position: relative;
 }
 
+.search-form__label:hover {
+  cursor: pointer;
+}
+
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-underline-offset: 2px;
@@ -131,8 +135,9 @@ button {
   top: 2px;
 }
 
-.search-form__checkbox[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
-  content: '';
+.search-form__checkbox[type="checkbox"]:checked
+  + .search-form__pseudo-checkbox::after {
+  content: "";
   position: absolute;
   top: 1px;
   left: 1px;
@@ -209,7 +214,7 @@ button {
 }
 
 .content__list {
-  overflow: scroll;
+  overflow: auto;
   height: 299px;
   position: relative;
   scrollbar-width: none;
@@ -240,7 +245,7 @@ button {
 
 .content__card-link:focus {
   outline: none;
-} 
+}
 
 .content__card-link:focus-visible {
   margin: 2px;
@@ -282,5 +287,3 @@ button {
 .more-button {
   width: 100%;
 }
-
-

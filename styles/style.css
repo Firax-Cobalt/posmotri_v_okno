@@ -222,11 +222,6 @@ button {
   overflow: auto;
   height: 299px;
   position: relative;
-  scrollbar-width: none;
-}
-
-.content__list::-webkit-scrollbar {
-  display: none;
 }
 
 .content__list-item {

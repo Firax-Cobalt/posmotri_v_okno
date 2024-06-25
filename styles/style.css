@@ -84,6 +84,7 @@ button {
 
 .content {
   margin: auto;
+  padding-top: 133px;
   display: flex;
   align-items: flex-end;
   column-gap: 30px;

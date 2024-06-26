@@ -256,7 +256,7 @@ button {
   padding-left: 2px;
   display: grid;
   align-items: flex-start;
-  grid-template-columns: auto 194px;
+  grid-template-columns: 200px 194px;
   min-height: 107px;
 }
 
@@ -278,6 +278,9 @@ button {
   line-height: 1;
   font-weight: 700;
   text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .content__video-card-description {

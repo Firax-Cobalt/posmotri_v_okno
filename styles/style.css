@@ -9,6 +9,7 @@ html {
 }
 
 .page {
+  display: flex;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -84,7 +85,6 @@ button {
 
 .content {
   margin: auto;
-  padding-top: 133px;
   display: flex;
   column-gap: 30px;
   width: 1140px;

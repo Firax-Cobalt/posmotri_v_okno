@@ -239,7 +239,8 @@ button {
   text-decoration: none;
 }
 
-.content__card-link:hover {
+.content__card-link:hover .content__video-card-title,
+.content__card-link:hover .content__video-card-description {
   text-decoration: underline;
 }
 

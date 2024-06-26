@@ -293,5 +293,6 @@ button {
 }
 
 .more-button {
+  padding-bottom: 4px;
   width: 100%;
 }
